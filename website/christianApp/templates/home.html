@@ -1,0 +1,157 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Scroller Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+    <!-- Section 1: Introduction -->
+    <section class="intro">
+        <div class="content">
+            <h1>Hello, I'm Christian Michael Lagura Yacapin</h1>
+            <p></p>
+        </div>
+    </section>
+
+    <!-- Section 2: Projects -->
+    <section class="projects">
+        <div class="content">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-item">
+                    <h3>Project 1: API Money Exchange Website</h3>
+                    <p>Authored a website focusing on money exchange services. Coded with React and Bootstrap. Implemented use of real-time currency exchange APIs and managed full development lifecycle from requirements gathering to deployment.</p>
+                    <img src="{% static 'images/html5.svg' %}" alt="HTML5 Icon"/>
+                    <img src="{% static 'images/css3.svg' %}" alt="CSS Icon"/>
+                    <img src="{% static 'images/javascript.svg' %}" alt="Javascript Icon"/>
+                    <img src="{% static 'images/react.svg' %}" alt="React Icon"/>
+                    <a href="https://github.com/christianly326/LaguraWebsite"><img src="{% static 'images/github-mark-white.png' %}" alt="Github mark white icon"/>Git repo</a>
+                
+                </div>
+                <div class="project-item">
+                    <h3>Project 2: Multi Feature Discord Bot</h3>
+                    <p>Designed, implemented, and tested a Python Discord bot with features including moderation commands, user engagement activities, and music-playing commands.</p>
+                    <a href="https://github.com/General-Programming-101/AmanBot"><img src="{% static 'images/discord.svg' %}" alt="Discord Icon"/> <img src="{% static 'images/github-mark-white.png' %}" alt="Github mark white Icon"/>Git repo </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Section 3: Skills -->
+    <section class="skills">
+        <div class="content">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skills-item">
+                    <h3>Languages</h3>
+                    <img src="{% static 'images/python.svg' %}">
+                    <img src="{% static 'images/javascript.svg' %}">
+                    <img src="{% static 'images/c.svg' %}">
+                    <img src="{% static 'images/r.svg' %}">
+                    <img src="{% static 'images/prolog.svg' %}">
+                </div>
+                <div class="skills-item">
+                    <h3>Front-End Development</h3>
+                    <img src="{% static 'images/html5.svg' %}" alt="HTML5 Icon">
+                    <img src="{% static 'images/css3.svg' %}" alt="CSS Icon">
+                    <img src="{% static 'images/javascript.svg' %}" alt="Javascript Icon">
+                    <img src="{% static 'images/django.svg' %}" alt="Django Icon">
+                </div>
+                <div class="skills-item">
+                    <h3>Dev Ops</h3>
+                    <img src="{% static 'images/github-mark-white.png' %}" alt="Github mark white icon">
+                    <img src="{% static 'images/gitlab.svg' %}" alt="Gitlab icon">
+                    <img src="{% static 'images/gitforwindows.svg' %}" alt="Git icon">
+                </div>
+                <div class="skills-item">
+                    <h3>Operating Systems</h3>
+                    <img src="{% static 'images/linux-22615.png' %}" alt="Linux Icon"> 
+                    <!-- give attirbution -->
+                    <img src="{% static 'images/powershell.svg' %}" alt="PoweShell Icon">
+                    <!-- give attirbution -->
+                    <!-- <a href="https://www.freepnglogos.com/images/linux-22615.html">Get it on linux logo logo brands for</a>  -->
+                    
+                </div>
+                <div class="skills-item">
+                    <h3>Databases</h3>
+                    <img src="{% static 'images/sqlite.svg' %}" alt="SQL Icon">
+                    <img src="{% static 'images/firebase.png' %}" alt="Firebase Icon">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- Section 4: Experience -->
+    <section class="experience">
+        <div class="content">
+            <h2>Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-item">
+                    <h3>DCU: Undergraduate Python Tutorship Role</h3>
+                    <img src="{% static 'images/DCU_Digital_Logo_Official_Navy_Stacked.png' %}"/>
+                    <p>Sept 2023 – April 2024</p>
+                    <p>
+                        • Developed communication, adaptability, analytical, and critical thinking skills.<br>
+                        • Taught foundational Python concepts like variables, data types, and basic data structures.<br>
+                        • Demonstrated intermediate Python topics like file and exception handling, object-oriented programming, modules, and advanced data structures.<br>
+                        • Enhanced critical thinking skills by giving strategic approaches to problem-solving.
+                    </p>
+                </div>
+                <div class="experience-item">
+                    <h3>Burger King: Front Staff Worker</h3>
+                    <img src="{% static 'images/burgerking.svg' %}"/>
+                    <p>July 2023 – July 2024</p>
+                    <p>
+                        • Improved customer service, communication, cleanliness, and sales skills.<br>
+                        • Operated cash tills, credit card machines, and dealt with sales and returns.<br>
+                        • Prepared food, drinks, utensils, and condiments for customer orders and deliveries.<br>
+                        • Maintained cleanliness of the dining area, kitchen, and staff rooms.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section 5: Contact -->
+<section class="contact">
+    <h2>Contact Me / Links</h2>
+    <div class="content contact-grid">
+        <div class="contact-item">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=chrisitanyacapin@gmail.com&su=Subject">
+                <img src="{% static 'images/email-icon.svg' %}" alt="Email Icon"> Email: ChristianYacapin@gmail.com
+            </a>
+        </div>
+        <div class="contact-item">
+            <a href="https://www.linkedin.com/in/christian-michael-lagura-yacapin-852709287/">
+                <img src="{% static 'images/linkedin.svg' %}" alt="LinkedIn Icon"> LinkedIn
+            </a>
+        </div>
+        <div class="contact-item">
+            <a href="https://github.com/christianly326">
+                <img src="{% static 'images/github.svg' %}" alt="Github Icon"> Github
+            </a>
+        </div>
+        <div class="contact-item">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=christian.lagurayacapin2@mail.dcu.ie&su=Subject">
+                <img src="{% static 'images/DCU_Digital_Logo_Official_Navy_Stacked.png' %}" alt="DCU Icon"> DCU Email: christian.lagurayacapin2@mail.dcu.ie
+            </a>
+        </div>
+    </div>
+</section>
+
+    <!-- <section class="attribution"></section>
+        <div class="content">
+            <a href="https://iconscout.com/icons/prolog" class="text-underline font-size-sm" target="_blank">Prolog</a> by <a href="https://iconscout.com/contributors/vorillaz" class="text-underline font-size-sm" target="_blank">Vorillaz</a>
+            <a href="https://www.freepnglogos.com/images/linux-22615.html">Get it on linux logo logo brands for</a>
+        </div>
+ </section> -->
+
+    <script src="{% static 'js/script.js' %}"></script>
+</body>
+</html>
